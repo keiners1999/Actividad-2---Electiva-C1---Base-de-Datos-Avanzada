@@ -29,8 +29,10 @@ def lista():
     print("Elementos Pares\n")
     print(listaconelementos[0:len(listaconelementos):2])
 
-    
+    print("\nElementos Impares\n")
+    print(listaconelementos[1:len(listaconelementos):2])
 
+    
     listaconelementos.remove("Estudiante ing.sistemas") 
 def main():
     lista()

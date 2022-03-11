@@ -20,6 +20,10 @@ def lista():
         print(listaconelementos[j])
         j+=1  
 
+    print("\n")
+    print("Imprimir una lista que está dentro de otra")
+    print(listaconelementos[-1][1])
+
     
 
     listaconelementos.remove("Estudiante ing.sistemas") 

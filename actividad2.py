@@ -24,6 +24,11 @@ def lista():
     print("Imprimir una lista que está dentro de otra")
     print(listaconelementos[-1][1])
 
+    print("\n")
+    print("mostrando elementos con saltos ")
+    print("Elementos Pares\n")
+    print(listaconelementos[0:len(listaconelementos):2])
+
     
 
     listaconelementos.remove("Estudiante ing.sistemas") 

@@ -14,7 +14,17 @@ def lista():
         print(listaconelementos[i])
     print("\n\n")
     
+    print("Mostrando elementos con el ciclo while")
+    j=0
+    while j < (len(listaconelementos)):
+        print(listaconelementos[j])
+        j+=1  
 
+    
+
+    listaconelementos.remove("Estudiante ing.sistemas") 
+def main():
+    lista()
 
 if __name__ == "__main__":
     main()
